@@ -5,8 +5,4 @@ public class BankingService {
         // a lot of logic we don't want to run in our tests.
         throw new UnsupportedOperationException("BankingService.updateAccountBalance() not supported yet.");
     }
-
-    public void updateAccountBalance_instance(String id, int sum) {
-        updateAccountBalance(id, sum);
-    }
 }
